@@ -6,7 +6,6 @@ root = true
 charset = utf-8
 indent_style = tab
 indent_size = 4
-tab_width = 4
 insert_final_newline = true
 trim_trailing_whitespace = false
 
@@ -15,19 +14,15 @@ end_of_line = crlf
 
 [*.{html,htm,xhtml,xhtm,xml}]
 indent_size = 2
-tab_width = 2
 
 [*.{as?x}]
 indent_size = 2
-tab_width = 2
 
 [*.{xsc,xsd,xss,xsx}]
 indent_size = 2
-tab_width = 2
 
 [*.{css,scss,sass}]
 indent_size = 2
-tab_width = 2
 
 [*.{json}]
 insert_final_newline = false
@@ -35,7 +30,6 @@ insert_final_newline = false
 [*.{yml,yaml}]
 indent_style = space
 indent_size = 2
-tab_width = 2
 
 [*.cs]
 #### C# Coding Conventions ####
