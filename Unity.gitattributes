@@ -1,39 +1,39 @@
-Assets/TextMesh[[:space:]]Pro/** linguist-vendored
-Assets/Plugins/**                linguist-vendored
+Assets/TextMesh[[:space:]]Pro/**  linguist-vendored
+Assets/Plugins/**                 linguist-vendored
 
 # Macro for Unity YAML-based asset files.
-[attr]unityyaml -text merge=unityyamlmerge diff
+[attr]unityyaml  -text  merge=unityyamlmerge  diff
 
 # Macro for all binary files that should use Git LFS.
-[attr]lfs -text filter=lfs diff=lfs merge=lfs
+[attr]lfs  -text  filter=lfs  diff=lfs  merge=lfs
 
 # Unity YAML
-*.anim               unityyaml
-*.asmdef             unityyaml
-*.asset              unityyaml
-*.brush              unityyaml
-*.controller         unityyaml
-*.flare              unityyaml
-*.fontsettings       unityyaml
-*.giparams           unityyaml
-*.guiskin            unityyaml
-*.mask               unityyaml
-*.mat                unityyaml
-*.meta               unityyaml
-*.mixer              unityyaml
-*.overrideController unityyaml
-*.physicMaterial     unityyaml
-*.physicsMaterial2D  unityyaml
-*.playable           unityyaml
-*.prefab             unityyaml
-*.preset             unityyaml
-*.renderTexture      unityyaml
-*.shadervariants     unityyaml
-*.spriteatlas        unityyaml
-*.terrainlayer       unityyaml
-*.unity              unityyaml
+*.anim                unityyaml
+*.asmdef              unityyaml
+*.asset               unityyaml
+*.brush               unityyaml
+*.controller          unityyaml
+*.flare               unityyaml
+*.fontsettings        unityyaml
+*.giparams            unityyaml
+*.guiskin             unityyaml
+*.mask                unityyaml
+*.mat                 unityyaml
+*.meta                unityyaml
+*.mixer               unityyaml
+*.overrideController  unityyaml
+*.physicMaterial      unityyaml
+*.physicsMaterial2D   unityyaml
+*.playable            unityyaml
+*.prefab              unityyaml
+*.preset              unityyaml
+*.renderTexture       unityyaml
+*.shadervariants      unityyaml
+*.spriteatlas         unityyaml
+*.terrainlayer        unityyaml
+*.unity               unityyaml
 
-*.asmdef -text diff
+*.asmdef  -text  diff
 
 # Unity Binary Assets
 *.cubemap           binary
@@ -43,7 +43,7 @@ LightingData.asset  binary
 NavMesh.asset       binary
 
 # Unity Input System
-*.inputactions eol=lf
+*.inputactions  eol=lf
 
 # Unity Auto-Generated
-*.meta linguist-generated
+*.meta  linguist-generated
