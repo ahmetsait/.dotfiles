@@ -36,11 +36,15 @@ indent_size = 2
 # Visual Studio auto inserts 2 spaces regardless of XML settings.
 indent_style = space
 indent_size = 2
+# Visual Studio doesn't insert final newline
+insert_final_newline = false
 
 [*.{targets,props,tasks}]
 # Visual Studio auto inserts 2 spaces regardless of XML settings.
 indent_style = space
 indent_size = 2
+# Visual Studio doesn't insert final newline
+insert_final_newline = false
 
 [*.{html,htm,xhtml,xhtm,xml}]
 indent_size = 2
