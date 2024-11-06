@@ -5,6 +5,7 @@ root = true
 [*]
 # Visual Studio and .NET tools default to adding byte order mark (BOM).
 charset = utf-8-bom
+end_of_line = lf
 indent_style = tab
 indent_size = 4
 insert_final_newline = true
