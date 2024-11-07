@@ -219,7 +219,7 @@ makefile           text
 *.mpeg        binary
 *.mpg         binary
 *.o           binary
-*.obj         text
+*.obj         text=auto
 *.ogg         binary
 *.ogv         binary
 *.otf         binary
