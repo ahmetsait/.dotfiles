@@ -3,17 +3,20 @@
 root = true
 
 [*]
-# Visual Studio and .NET tools default to adding byte order mark (BOM).
-charset = utf-8-bom
+charset = utf-8
 end_of_line = lf
 indent_style = tab
 indent_size = 4
 insert_final_newline = true
 trim_trailing_whitespace = false
 
-[.*]
-# No BOM in dot files.
-charset = utf-8
+[*.as?x]
+# Some .NET tools require BOM to work properly
+charset = utf-8-bom
+
+[*.{config,cs,vb,fs,fsx,fsi,cshtml,vbhtml,licx}]
+# Some .NET tools require BOM to work properly
+charset = utf-8-bom
 
 [*.{bat,cmd}]
 # Batch files don't play nice with non-ASCII files.
@@ -34,6 +37,8 @@ indent_style = space
 indent_size = 2
 
 [*.*proj]
+# Some .NET tools require BOM to work properly
+charset = utf-8-bom
 # Visual Studio auto inserts 2 spaces regardless of XML settings.
 indent_style = space
 indent_size = 2
@@ -41,6 +46,8 @@ indent_size = 2
 insert_final_newline = false
 
 [*.{targets,props,tasks}]
+# Some .NET tools require BOM to work properly
+charset = utf-8-bom
 # Visual Studio auto inserts 2 spaces regardless of XML settings.
 indent_style = space
 indent_size = 2
