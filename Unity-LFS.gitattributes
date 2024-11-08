@@ -175,6 +175,7 @@ makefile           text
 *.exe         binary
 *.exr         binary
 *.fbx         text=auto
+*.FBX         text=auto
 *.fla         binary
 *.flv         binary
 *.gif         binary
@@ -349,6 +350,7 @@ NavMesh.asset       binary  lfs
 *.exe         lfs
 *.exr         lfs
 *.fbx         lfs
+*.FBX         lfs
 *.fla         lfs
 *.flv         lfs
 *.gif         lfs

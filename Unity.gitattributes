@@ -175,6 +175,7 @@ makefile           text
 *.exe         binary
 *.exr         binary
 *.fbx         text=auto
+*.FBX         text=auto
 *.fla         binary
 *.flv         binary
 *.gif         binary
