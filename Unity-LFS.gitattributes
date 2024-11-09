@@ -154,7 +154,6 @@ makefile           text
 *.aiff        binary
 *.apk         binary
 *.apng        binary
-*.as          binary
 *.asf         binary
 *.asx         binary
 *.atsc        binary
@@ -329,7 +328,6 @@ NavMesh.asset       binary  lfs
 *.aiff        lfs
 *.apk         lfs
 *.apng        lfs
-*.as          lfs
 *.asf         lfs
 *.asx         lfs
 *.atsc        lfs

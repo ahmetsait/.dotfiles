@@ -154,7 +154,6 @@ makefile           text
 *.aiff        binary
 *.apk         binary
 *.apng        binary
-*.as          binary
 *.asf         binary
 *.asx         binary
 *.atsc        binary
