@@ -75,8 +75,8 @@ Dockerfile  text
 *.mdown       text  diff=markdown
 *.mkd         text  diff=markdown
 *.mkdn        text  diff=markdown
-*.mdtxt       text
-*.mdtext      text
+*.mdtxt       text  diff=markdown
+*.mdtext      text  diff=markdown
 *.txt         text
 AUTHORS       text
 CHANGELOG     text
@@ -146,7 +146,7 @@ makefile           text
 *.3gp         binary
 *.3gpp        binary
 *.7z          binary
-*.abc         binary
+*.abc         text=auto
 *.afdesign    binary
 *.afphoto     binary
 *.ai          binary
@@ -156,7 +156,6 @@ makefile           text
 *.apng        binary
 *.asf         binary
 *.asx         binary
-*.atsc        binary
 *.avi         binary
 *.bin         binary
 *.blend       binary
@@ -197,14 +196,13 @@ makefile           text
 *.kar         binary
 *.kpp         binary
 *.kra         binary
-*.leo         binary
 *.lwo         binary
 *.lwo2        binary
 *.lws         binary
 *.lxo         binary
 *.m4a         binary
 *.m4v         binary
-*.ma          binary
+*.ma          text
 *.max         binary
 *.mb          binary
 *.mdb         binary
@@ -212,7 +210,7 @@ makefile           text
 *.mid         binary
 *.midi        binary
 *.mng         binary
-*.mod         binary
+*.mod         text=auto
 *.mov         binary
 *.mp3         binary
 *.mp4         binary
@@ -235,6 +233,7 @@ makefile           text
 *.rar         binary
 *.rns         binary
 *.s3m         binary
+*.skel        text
 *.skel.bytes  binary
 *.skp         binary
 *.so          binary
@@ -248,8 +247,8 @@ makefile           text
 *.tif         binary
 *.tiff        binary
 *.ttf         binary
-*.usd         binary
-*.usda        binary
+*.usd         text=auto
+*.usda        text
 *.usdc        binary
 *.wav         binary
 *.wbmp        binary
